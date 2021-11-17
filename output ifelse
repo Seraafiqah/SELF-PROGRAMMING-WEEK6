@@ -1,0 +1,25 @@
+Enter your subject: 
+mathematic
+Enter your subject: 
+english
+Enter your mark for Mathematics: 
+75
+Enter your mark for English: 
+90
+PASS for both subject
+Average mark 82.5
+Grade: A
+English's mark is greater than Mathematics's mark.
+
+Enter your subject: 
+mathematic
+Enter your subject: 
+english
+Enter your mark for Mathematics: 
+20
+Enter your mark for English: 
+35
+FAIL for both subject
+Average mark 27.5
+Grade: F
+English's mark is greater than Mathematics's mark.
