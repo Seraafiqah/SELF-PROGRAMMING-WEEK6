@@ -1,0 +1,35 @@
+package mySwitch;
+
+import java.util.Scanner;
+
+public class exampleswitch1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner (System.in);
+
+System.out.println("Enter the number of x: ");
+int x = sc.nextInt();
+
+switch (x) {
+case 10: //: not;
+	System.out.println("x is 10");
+	break;
+	
+case 20:
+	System.out.println("x is 20");
+	break;
+	
+case 30:
+	System.out.println("x is 30");
+	break;
+	
+	default:
+		System.out.println("x is not 10 or 20 or 30");
+		
+}
+
+sc.close();
+	}
+
+}
