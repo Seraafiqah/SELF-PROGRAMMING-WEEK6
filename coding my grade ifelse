@@ -1,0 +1,42 @@
+package mySwitch;
+
+import java.util.Scanner;
+
+public class myGradesIfelse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner (System.in);
+
+System.out.println("Enter grades A,B,C,D,E and F");
+String str = sc.next();
+char grade = str.charAt(0);
+
+if (grade == 'A')
+System.out.println("Grade A mark >= 90");
+
+else if (grade == 'B')
+System.out.println("Grade B mark >= 80 and less than 90");
+
+else if (grade == 'C')
+System.out.println("Grade C mark >= 70 and less than 80");
+
+else if (grade == 'D')
+System.out.println("Grade D mark >= 60 and less than 70");
+
+else if (grade == 'E')
+System.out.println("Grade E mark >= 50 and less than 60");
+
+else if (grade == 'F')
+System.out.println("Grade F mark <= 40");
+
+else  
+System.out.println("Invalid grade");
+
+
+
+
+
+	}
+
+}
